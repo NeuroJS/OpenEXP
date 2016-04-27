@@ -7,3 +7,72 @@
 @import '../components/navbar/navbar.scss';
 @import './connect/connect.scss';
 @import '../app/login/login.scss';
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #222222;
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+}
+
+.block {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  background-color: #333333;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.block h2 {
+  position: absolute;
+  margin: 0;
+  top: 10px;
+  right: 20px;
+  font-weight: 300;
+}
+
+.block-25 {
+  width: 25%;
+}
+
+.block-33 {
+  width: 33%;
+}
+
+.block-50 {
+  width: 50%;
+}
+
+.block-100 {
+  width: 100%;
+}
+
+.time-series-duration {
+  position: absolute;
+  width: 110%;
+  bottom: 30px;
+  display: flex;
+}
+
+.time-series-duration time {
+  width: 20%;
+}

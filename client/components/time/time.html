@@ -1,0 +1,20 @@
+<section class="time-series">
+    <h2>Time Series</h2>
+    <canvas ng-repeat="channel in $ctrl.data track by $index"
+            ng-style="{ position: 'absolute', top: ((60 * $index)) + 'px', padding: '20px 0' }"
+            height="50"
+            id="channel1"
+            ng-if="$ctrl.data"
+            class="chart chart-line"
+            chart-data="[channel]"
+            chart-labels="$ctrl.labels"
+            chart-options="$ctrl.options"
+            chart-colours="[$ctrl.colors[$index]]">
+    </canvas>
+    <footer class="time-series-duration">
+        <time ng-repeat="second in [5,4,3,2,1,0] track by $index" datetime="P1M">
+            <span ng-if="second">-</span>{{ second }}
+        </time>
+    </footer>
+    <div style="height: 600px"></div>
+</section>

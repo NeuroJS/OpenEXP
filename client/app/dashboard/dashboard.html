@@ -2,3 +2,13 @@
   <button class="btn btn-lg btn-info" ng-click="publish()"><span class="glyphicon glyphicon-play"></button>
   <button class="btn btn-lg btn-warning" ng-click="unpublish()"><span class="glyphicon glyphicon-pause"></button>
 </center>
+
+<section class="row">
+  <bci-frequency ng-if="frequencyData" data="frequencyData" labels="frequencyLabels" class="block block-50"></bci-frequency>
+  <bci-topo ng-if="gridData" data="gridData" class="block block-50"></bci-topo>
+</section>
+
+<section class="row">
+  <bci-time ng-if="timeData" data="timeData" labels="timeLabels" class="block block-100"></bci-time>
+</section>
+

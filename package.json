@@ -71,15 +71,19 @@
   },
   "dependencies": {
     "angular": "1.5.0-rc.0",
+    "angular-chartjs": "0.0.5",
     "angular-ui-bootstrap": "^0.14.3",
     "angular-ui-router": "^0.2.15",
     "babel": "^6.3.13",
     "bootstrap": "^3.3.6",
+    "chart.js": "^1.1.1",
+    "dsp.js": "github:neurojs/dsp.js",
     "gulp": "^3.9.0",
     "jquery": "^2.1.4",
     "jspsych": "git://github.com/teonlamont/jsPsych.git#590313c2fc528c147a5d6040f001c7407ee3623b",
     "ngmin": "^0.5.0",
     "openbci-sdk": "^0.2.0",
+    "topogrid": "^1.0.6",
     "url-loader": "^0.5.7"
   }
 }

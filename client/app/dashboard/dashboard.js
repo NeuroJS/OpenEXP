@@ -7,3 +7,4 @@ angular.module('OpenEXP')
                 templateUrl: './app/dashboard/dashboard.html'
         })
     });
+

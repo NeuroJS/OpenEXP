@@ -5,6 +5,9 @@ module.exports = function() {
     require('./app/app');
 
     // FACTORY METHODS
+    require('./components/frequency/frequency.js');
+    require('./components/time/time.js');
+    require('./components/topo/topo.js');
     require('./components/board/boardFactory.js');
 
     // PAGES

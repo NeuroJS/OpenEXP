@@ -64,7 +64,7 @@ angular.module('OpenEXP')
         // each time there is a change of type add, log it
         var observer = (changes) => {
             changes.forEach(change => {
-                if(change.type === "add") console.log(change)
+                //if(change.type === "add") console.log(change)
             })
         };
 
